@@ -1,0 +1,9 @@
+def remove_last(lst):
+    lst.pop()
+
+numbers = [10,20,30,40]
+
+#Remove last element using function call
+remove_last(numbers)                    
+
+print("List after function call: ", numbers) 

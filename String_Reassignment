@@ -1,0 +1,9 @@
+def change_string(s):
+    s = "X" + s[1:]
+    print("Inside function: ", s)
+
+text = "Hello"
+
+change_string(text)
+
+print("Outside function: ", text)      #String Reassignment

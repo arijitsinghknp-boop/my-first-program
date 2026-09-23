@@ -1,0 +1,10 @@
+def maximum(a,b):
+    if a > b:
+        return a
+    else:
+        return b
+
+x = input("Enter first number: ")
+y = input("Enter second number: ")
+
+print("Maximum Number: ", maximum(x,y))             #Maximum Number
